@@ -4,6 +4,7 @@ Juguemos al BlackJack
 ## Reto 1 (DAM1 y DAW1)
 
 ### Descripción:
+
 ```
 Crear un programa en Python con funciones para jugar al Blackjack.
 
@@ -11,26 +12,18 @@ Al entrar debe preguntar el modo de juego:
 
     1. Dos jugadores.
     2. Un jugador contra la máquina.
-
+```
 
 ### Premisas generales:
-```
 1. El código debe estar escrito en Python.
-2. Se considerará entregado el reto cuando se realice la entrega de la tarea en Moodle con el enlace de GitHub a vuestro repositorio.
-3. NO SE PUEDE ENTREGAR hasta pasadas 48h de la presentación del reto. Aunque podéis realizar commit y push en el repositorio desde el inicio sin problemas.
-4. Se considerará entregado el reto cuando se realice la entrega de la tarea en Moodle con el enlace de GitHub a vuestro repositorio.
-5. No se pueden usar listas, tuplas o diccionarios. Evitar sentencias while True, break, continue y pass.
-6. Código legible y buenas prácticas de programación, incluyendo el principio de responsabilidad única, nombres de métodos y variables correctas y descriptivas con nomenclatura camelCase o palabras separadas por "_".
-7. Entregar el programa junto con pruebas unitarias de las funciones utilizadas.
-8. Para corregirlo, el programa debe pasar los test que se hayan diseñado.
-9. No es necesario realizar pruebas a funciones que contengan un input().
-10. Se deben realizar todas las comprobaciones necesarias para que el programa no genere errores/excepciones.
-11. El programa debe estar documentado/comentado con docstrings y comentarios internos (ver https://revilofe.github.io/section1/u02/teoria/PROG-U2.5.-Documentar/)
-12. El trabajo se llevará a cabo en parejas, utilizando control de versiones (Git) y plataformas de colaboración como GitHub para coordinarse. Todas las aportaciones deben ser entre los dos miembros del equipo.
-13. El último commit marcará el tiempo de entrega. Se corregirán los tres primeros que se hayan entregado dentro de la siguiente hora al último commit de la primera entrega.
-14. Se tendrá un tiempo máximo de 2 semanas desde la fecha de apertura del reto para terminarlo.
-15. Si se detecta copia entre retos o de cualquier otra fuente, la entrega quedará eliminada.
-16. La aceptación de la solución al reto como solución válida, supondrá un beneficio en la nota final del módulo.
+2. No se pueden usar listas, tuplas o diccionarios. Evitar sentencias while True, break, continue y pass.
+3. Código legible y buenas prácticas de programación, incluyendo el principio de responsabilidad única, nombres de métodos y variables correctas y descriptivas con nomenclatura camelCase o palabras separadas por "_".
+4. Entregar el programa junto con pruebas unitarias de las funciones utilizadas.
+5. Para corregirlo, el programa debe pasar los test que se hayan diseñado.
+6. Para las pruebas a funciones que contengan un input() ver [Pruebas Unitarias con "monkeypatch" y "capfd"](https://revilofe.github.io/blog/20241008-Pruebas-Unitarias-Simuladas/).
+7. Se deben realizar todas las comprobaciones necesarias para que el programa no genere errores/excepciones.
+8. El programa debe estar documentado/comentado con docstrings y comentarios internos. Ver [Documentar el código](https://revilofe.github.io/section1/u02/teoria/PROG-U2.5.-Documentar/)
+9. Si se detecta copia entre retos o de cualquier otra fuente, la entrega quedará eliminada.
 ```
 
 ### Objetivo del juego:
